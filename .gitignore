@@ -7,16 +7,16 @@
 /yarn.lock
 
 # Environment files
-#.env
-#.env.*
-#!.env.example
+.env
+.env.*
+!.env.example
 
 # PHPUnit cache
 .phpunit.cache/
 /.phpunit.result.cache
 
 # Storage
-#storage/
+storage/
 !storage/app/public/
 public/storage
 public/upload_*
